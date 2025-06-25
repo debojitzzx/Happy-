@@ -8,11 +8,18 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Cake Screen -->
+  <div class="cake-screen" id="cakeScreen">
+    <img src="https://i.imgur.com/CakeWlJ.png" alt="Birthday Cake" class="cake-img"/>
+    <p class="tap-text">🎂 Tap to cut the cake 🎂</p>
+  </div>
+
+  <!-- Birthday Surprise Content (Hidden Initially) -->
   <div class="stars"></div>
   <div class="twinkling"></div>
   <canvas id="confetti-canvas"></canvas>
 
-  <div class="content">
+  <div class="content" id="mainContent" style="display:none;">
     <h1 class="glow-text">Happy Birthday Pichchi 🎂</h1>
     <p id="typing-text"></p>
     <img src="pichchi_birthday_photo.jpg" alt="Pichchi's Photo" class="birthday-photo pulse" />
